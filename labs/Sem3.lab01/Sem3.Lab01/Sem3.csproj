@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Sem3</AssemblyName>
+    <RootNamespace>Sem3.Lab01</RootNamespace>
+  </PropertyGroup>
+
+</Project>

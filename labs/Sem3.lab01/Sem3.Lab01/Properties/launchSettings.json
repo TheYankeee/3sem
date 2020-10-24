@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Sem3": {
+      "commandName": "Project",
+      "commandLineArgs": "1 -2 1 "
+    },
+    "newProfile1": {
+      "commandName": "Executable"
+    }
+  }
+}

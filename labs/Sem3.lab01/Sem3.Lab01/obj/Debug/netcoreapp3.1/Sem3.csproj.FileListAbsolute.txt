@@ -1,0 +1,13 @@
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\bin\Debug\netcoreapp3.1\Sem3.exe
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\bin\Debug\netcoreapp3.1\Sem3.deps.json
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\bin\Debug\netcoreapp3.1\Sem3.runtimeconfig.json
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\bin\Debug\netcoreapp3.1\Sem3.runtimeconfig.dev.json
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\bin\Debug\netcoreapp3.1\Sem3.dll
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\bin\Debug\netcoreapp3.1\Sem3.pdb
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.csprojAssemblyReference.cache
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.AssemblyInfoInputs.cache
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.AssemblyInfo.cs
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.csproj.CoreCompileInputs.cache
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.dll
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.pdb
+D:\Кучумов ИУ5-23\Sem3.Lab01\Sem3.Lab01\obj\Debug\netcoreapp3.1\Sem3.genruntimeconfig.cache
