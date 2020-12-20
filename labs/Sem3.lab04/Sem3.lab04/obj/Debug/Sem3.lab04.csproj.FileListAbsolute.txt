@@ -1,0 +1,10 @@
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\bin\Debug\Sem3.lab04.exe.config
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\bin\Debug\Sem3.lab04.exe
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\bin\Debug\Sem3.lab04.pdb
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.csprojAssemblyReference.cache
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.Properties.Resources.resources
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.csproj.GenerateResource.cache
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.csproj.CoreCompileInputs.cache
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.exe
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.pdb
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab04\Sem3.lab04\obj\Debug\Sem3.lab04.main_form.resources
