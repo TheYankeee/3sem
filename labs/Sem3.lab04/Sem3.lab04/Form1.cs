@@ -27,6 +27,7 @@ namespace Sem3.lab04
             textBoxSearch.Visible = false;
             listBoxSearch.Visible = false;
             buttonSearch.Visible = false;
+            textBoxMaxDist.Visible = false;
         }
 
         
@@ -36,17 +37,29 @@ namespace Sem3.lab04
 
         private void openFileDialog_FileOk(object sender, CancelEventArgs e)
         {
-
         }
         private void textBoxSearch_Click(object sender, EventArgs e)
         {
             textBoxSearch.Text = "";
         }
+        private void textBoxMaxDist_Click(object sender, EventArgs e)
+        {
+            textBoxMaxDist.Text = "";
+        }
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             var word = textBoxSearch.Text;
-
+            int maxD;
+            try
+            {
+                 maxD = Convert.ToInt32(textBoxMaxDist.Text);
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Ошибка формата", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             watch.Reset();
             watch.Start();
 
@@ -57,7 +70,13 @@ namespace Sem3.lab04
             {
                 if (text_word.Contains(word))
                 {
-                    listBoxSearch.Items.Add(text_word);
+                    var d = Sem3.lab05.StringComparisonMethods.LevensteinDistance(word, textBoxSearch.Text);
+                    if (d <= maxD)
+                    {
+                        var i = word + ' ' + Convert.ToString(d);
+                        listBoxSearch.Items.Add(i);
+                    }
+
                 }
             }
 
@@ -96,7 +115,12 @@ namespace Sem3.lab04
                 buttonSearch.Visible = true;
                 labelLoadTime.Visible = true;
                 textBoxSearch.Visible = true;
+                textBoxMaxDist.Visible = true;
             }
+        }
+
+        private void labelSearchTime_Click(object sender, EventArgs e)
+        {
         }
     }
 }

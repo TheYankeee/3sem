@@ -29,14 +29,15 @@
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.labelSearchTime = new System.Windows.Forms.Label();
+            this.textBoxMaxDist = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
+            this.openFileDialog.Filter = "txt files(*.txt) | *.txt";
             this.openFileDialog.InitialDirectory = "c:\\\\";
             this.openFileDialog.RestoreDirectory = true;
-            this.openFileDialog.Filter = "txt files(*.txt) | *.txt";
             this.openFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog_FileOk);
             // 
             // buttonLoad
@@ -52,8 +53,7 @@
             // labelLoadTime
             // 
             this.labelLoadTime.AutoSize = true;
-            this.labelLoadTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, 
-                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLoadTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLoadTime.Location = new System.Drawing.Point(184, 63);
             this.labelLoadTime.Name = "labelLoadTime";
             this.labelLoadTime.Size = new System.Drawing.Size(151, 21);
@@ -62,8 +62,7 @@
             // 
             // listBoxSearch
             // 
-            this.listBoxSearch.Font = new System.Drawing.Font("Times New Roman", 12F,
-                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listBoxSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBoxSearch.FormattingEnabled = true;
             this.listBoxSearch.ItemHeight = 19;
             this.listBoxSearch.Location = new System.Drawing.Point(43, 203);
@@ -73,8 +72,7 @@
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Font = new System.Drawing.Font("Times New Roman", 14.25F, 
-                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxSearch.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxSearch.Location = new System.Drawing.Point(43, 106);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(138, 29);
@@ -84,11 +82,11 @@
             // 
             // buttonSearch
             // 
-            this.buttonSearch.Location = new System.Drawing.Point(43, 141);
+            this.buttonSearch.Location = new System.Drawing.Point(43, 152);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(138, 44);
             this.buttonSearch.TabIndex = 5;
-            this.buttonSearch.Text = "Найти слово";
+            this.buttonSearch.Text = "Поиск";
             this.buttonSearch.UseVisualStyleBackColor = true;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
@@ -96,17 +94,29 @@
             // 
             this.labelSearchTime.AutoSize = true;
             this.labelSearchTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelSearchTime.Location = new System.Drawing.Point(187, 152);
+            this.labelSearchTime.Location = new System.Drawing.Point(187, 163);
             this.labelSearchTime.Name = "labelSearchTime";
             this.labelSearchTime.Size = new System.Drawing.Size(137, 21);
             this.labelSearchTime.TabIndex = 6;
             this.labelSearchTime.Text = "Время поиска...";
+            this.labelSearchTime.Click += new System.EventHandler(this.labelSearchTime_Click);
+            // 
+            // textBoxMaxDist
+            // 
+            this.textBoxMaxDist.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxMaxDist.Location = new System.Drawing.Point(187, 106);
+            this.textBoxMaxDist.Name = "textBoxMaxDist";
+            this.textBoxMaxDist.Size = new System.Drawing.Size(249, 29);
+            this.textBoxMaxDist.TabIndex = 7;
+            this.textBoxMaxDist.Text = "Введите \r\nмаксимальную длину";
+            this.textBoxMaxDist.Click += new System.EventHandler(this.textBoxMaxDist_Click);
             // 
             // main_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(495, 450);
+            this.Controls.Add(this.textBoxMaxDist);
             this.Controls.Add(this.labelSearchTime);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.textBoxSearch);
@@ -129,6 +139,6 @@
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.Label labelSearchTime;
+        private System.Windows.Forms.TextBox textBoxMaxDist;
     }
 }
-
