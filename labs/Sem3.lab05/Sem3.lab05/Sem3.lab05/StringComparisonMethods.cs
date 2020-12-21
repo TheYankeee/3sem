@@ -4,14 +4,14 @@ namespace Sem3.lab05
 {
     public class StringComparisonMethods
     {
-        public static int LevensteinDistance(string s1, string s2, int n = -1 , int m = -1)
+        public static int LevensteinDistance(string s1, string s2, int n = -1, int m = -1)
         {
             if (n == -1)
                 n = s1.Length;
             if (m == -1)
                 m = s2.Length;
 
-            if (n>0)
+            if (n > 0)
             {
                 if (m > 0)
                 {
@@ -30,3 +30,4 @@ namespace Sem3.lab05
         }
     }
 }
+

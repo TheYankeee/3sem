@@ -1,0 +1,9 @@
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\bin\Debug\Sem3.lab05.dll.config
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\bin\Debug\Sem3.lab05.dll
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\bin\Debug\Sem3.lab05.pdb
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\Sem3.lab05.csprojAssemblyReference.cache
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\Sem3.lab05.Properties.Resources.resources
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\Sem3.lab05.csproj.GenerateResource.cache
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\Sem3.lab05.csproj.CoreCompileInputs.cache
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\Sem3.lab05.dll
+D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\Sem3.lab05.pdb
