@@ -1,8 +1,0 @@
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\netcoreapp3.1\Sem3.lab05.AssemblyInfoInputs.cache
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\netcoreapp3.1\Sem3.lab05.AssemblyInfo.cs
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\netcoreapp3.1\Sem3.lab05.csproj.CoreCompileInputs.cache
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\bin\Debug\netcoreapp3.1\Sem3.lab05.deps.json
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\bin\Debug\netcoreapp3.1\Sem3.lab05.dll
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\bin\Debug\netcoreapp3.1\Sem3.lab05.pdb
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\netcoreapp3.1\Sem3.lab05.dll
-D:\Кучумов ИУ5-23\Sem3\labs\Sem3.lab05\Sem3.lab05\Sem3.lab05\obj\Debug\netcoreapp3.1\Sem3.lab05.pdb
