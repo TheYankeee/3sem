@@ -58,7 +58,6 @@ namespace Sem3.Lab01
                 }
             }
 
-
             double d = b * b - 4 * a * c;
             if ((-b + Math.Sqrt(d)) / (2 * a) >= 0)
             {
@@ -69,7 +68,8 @@ namespace Sem3.Lab01
             if (((-b - Math.Sqrt(d)) / (2 * a) >= 0)&&(d!=0))
             {
                 solutions.Add(Math.Sqrt((-b - Math.Sqrt(d)) / (2 * a)));
-                solutions.Add(-Math.Sqrt((-b - Math.Sqrt(d)) / (2 * a)));
+                if (-Math.Sqrt((-b - Math.Sqrt(d)) / (2 * a)) != Math.Sqrt((-b - Math.Sqrt(d)) / (2 * a)))
+                    solutions.Add(-Math.Sqrt((-b - Math.Sqrt(d)) / (2 * a)));
             }
 
 
@@ -81,10 +81,19 @@ namespace Sem3.Lab01
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Green;
-                for (var i = 0; i < solutions.Count; i++)
-                    Console.WriteLine($"x{i+1} = {solutions[i]}");
-                Console.ResetColor();
+                if (solutions.Count == 1)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"x = {solutions[0]}");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    for (var i = 0; i < solutions.Count; i++)
+                        Console.WriteLine($"x{i + 1} = {solutions[i]}");
+                    Console.ResetColor();
+                }
             }
         }
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Кучумов ИУ5-23\\Sem3.Lab01\\Sem3.Lab01\\Sem3.csproj",
+      "projectUniqueName": "D:\\Кучумов ИУ5-23\\Sem3\\labs\\Sem3.lab01\\Sem3.Lab01\\Sem3.csproj",
       "projectName": "Sem3",
-      "projectPath": "D:\\Кучумов ИУ5-23\\Sem3.Lab01\\Sem3.Lab01\\Sem3.csproj",
+      "projectPath": "D:\\Кучумов ИУ5-23\\Sem3\\labs\\Sem3.lab01\\Sem3.Lab01\\Sem3.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Кучумов ИУ5-23\\Sem3.Lab01\\Sem3.Lab01\\obj\\",
+      "outputPath": "D:\\Кучумов ИУ5-23\\Sem3\\labs\\Sem3.lab01\\Sem3.Lab01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
