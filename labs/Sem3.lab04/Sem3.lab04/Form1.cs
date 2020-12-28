@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
-using Sem3.lab05;
+
 
 
 namespace Sem3.lab04
